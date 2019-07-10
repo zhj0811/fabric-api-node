@@ -4,14 +4,17 @@ const sdk = require('../sdk/sdk');
 const Koa = require("koa");
 const schema = require('./schema');
 const utils = require('./utils');
+const logger = require('../common/log4js').handlelogger;
 
 const SaveData = "SaveData",
       QueryDataByFabricTxId = "QueryDataByFabricTxId",
       QueryDataByBusinessNo="QueryDataByBusinessNo"; 
 
 async function savedata(ctx){
+    logger.debug("enter savedata function ...")
     var postBody = ctx.request.body;
-    console.log(postBody);
+    // console.log(postBody);
+    logger.info("request body: ", postBody);
     let schemaRes = schema.SchemaValidator(postBody);
     let response = {};
     if (schemaRes.error != null){
@@ -20,7 +23,6 @@ async function savedata(ctx){
         ctx.body = response;
         return;
     }
-
     let factorList = schemaRes.value;
     let txids = [];
     // await factorList.forEach(async factor => {
@@ -42,7 +44,7 @@ async function savedata(ctx){
         let prams = [];
         prams.push(postStr);
         let res = await sdk.invoke(SaveData, prams);  
-        console.log("res:", res); 
+        logger.info("sdk.invoke response: ", res)
         if (res instanceof Error){
             response.code = 702;
             response.msg = res;
@@ -58,30 +60,31 @@ async function savedata(ctx){
 }
 
 async function query(ctx){
+    logger.debug("enter query function ...")
     let request = ctx.query;
     let response = {};
     let businessNo = request.businessNo,
         fabricTxId = request.fabricTxId;
-    if (businessNo == "" && fabricTxId == "") {
-        console.error("businessno and fabrictxid are all empty");
+    if ((businessNo == "" || businessNo == undefined )&& (fabricTxId == "" || fabricTxId == undefined)) {
+        // console.error("businessno and fabrictxid are all empty");
+        logger.error("businessno and fabrictxid are all empty");
         response.code = 703;
         response.msg = "businessno and fabrictxid are all empty";
         ctx.body = response;
 		return
 	}
-    var prams = [];
-    var responseData
+    let prams = [];
+    let responseData
     if (fabricTxId != "") {
-        // logger.Infof("query data with txid: %s", fabricTxId)
-        console.log("query data with txid: ", fabricTxId);
+        logger.info("query data with txid: ", fabricTxId)
         prams.push(fabricTxId);
 		responseData = await sdk.query(QueryDataByFabricTxId, prams)
 	} else if (businessNo != "") {
+        logger.info("query data with businessNO: ", businessNo);
         prams.push(businessNo);
-		// logger.Infof("query data with businessNO: %s", businessNo)
 		responseData = await sdk.query(QueryDataByBusinessNo, prams)
 	}
-    // let res = await sdk.query("query", prams);
+    logger.info("sdk.query result: ", responseData.toString());
     // console.log("response: ", res);
     if (responseData instanceof Error){
         response.code = 704; 
@@ -89,16 +92,23 @@ async function query(ctx){
         ctx.body = response;
         return
     }
-    console.log("sdk.query response: ", responseData);
+    // console.log("sdk.query response: ", responseData);
     let payload = await utils.FormatResponseMessage(responseData); 
     let responseMsg = [];
+    if (payload[0] == ""){
+        logger.info("query result is null")
+        response.code = 700;
+        response.msg = "query result is null";
+        // return ctx.body(res.toString())
+        ctx.body = response;
+        return;   
+    }
     for (let str of payload){
-        let factor = await JSON.parse(str);
+        let factor = await JSON.parse(str); //str == "" 会报错
         responseMsg.push(factor);
     }
     response.code = 700;
     response.msg = responseMsg;
-    // return ctx.body(res.toString())
     ctx.body = response;
     return;
 }
