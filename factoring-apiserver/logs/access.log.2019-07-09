@@ -1,1 +1,0 @@
-[2019-07-09T19:11:12.470] [INFO] access - ::ffff:192.168.10.1 - - "GET /factor/query?fabricTxId=17d0b2d80cc2e5386e9b34a36991c9d9c1dbc0bbe2baf6e0524939bcc3dd6f1d HTTP/1.1" 200 386 "" "PostmanRuntime/7.15.2"
