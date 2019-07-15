@@ -1,0 +1,25 @@
+user_id: Admin@org1.example.com
+msp_id: Org1MSP
+channel_id: 'mychannel'
+chaincode_id: 'mycc'
+peer_url: 'grpc://localhost:7051'
+# event_url: 'grpc://localhost:7053'
+orderer_url: 'grpc://localhost:7050'
+privateKeyFolder: '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore'
+signedCert: '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem'
+peer_tls_cacerts : '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt'
+orderer_tls_cacerts : '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/ca.crt'
+server_hostname : peer0.org1.example.com
+
+##因为启用了TLS，所以是grpcs,如果没有启用TLS，那么就是grpc 
+network_url: 'grpc://localhost:7051'
+tls_cacerts: '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt'
+
+
+peer2_url: 'grpc://localhost:9051'
+server2_hostname: peer0.org2.example.com
+peer2_tls_cacerts: '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt'
+privateKeyFolder2: '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore'
+signedCert2: '/home/zh/fabric1.1/deploy/e2ecli/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts/Admin@org2.example.com-cert.pem'
+msp_id2: Org2MSP
+user_id2: Admin@org2.example.com

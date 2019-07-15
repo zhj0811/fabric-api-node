@@ -1,0 +1,294 @@
+[2019-07-10T17:02:31.581] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:02:31.589] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:02:31.754] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:02:31.755] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:02:31.794] [INFO] handler - sdk.invoke response:  ffbec968ec5f0c6681313a72d5bfe539c807408d9e87461bec8ead3cbe820a7a
+[2019-07-10T17:04:13.771] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:04:13.772] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:04:13.840] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:04:13.843] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:04:13.899] [INFO] handler - sdk.invoke response:  0ec1f3eaa8b06f6283f2ba78509efb8badef4025e1f2953c81f049f64713a699
+[2019-07-10T17:10:14.219] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:10:14.220] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:10:14.304] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:10:14.306] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:10:14.342] [INFO] handler - sdk.invoke response:  5e9ccd4a495223b097153050e961f387bec0afd889eee4bcba4ad0459feeb54e
+[2019-07-10T17:10:14.908] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:10:14.909] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:10:14.949] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:10:14.951] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:10:14.977] [INFO] handler - sdk.invoke response:  bd42b93ea22f4e0ef9ced87b3c6e7e98b11d10aefda206ddc7d1e3d350e68ce1
+[2019-07-10T17:10:16.142] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:10:16.142] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:10:16.269] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:10:16.270] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:10:16.378] [INFO] handler - sdk.invoke response:  4742e49efa538aa02ca38d9de1f16f7566d0ee9043908df8d8101a66d603e45c
+[2019-07-10T17:10:16.746] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:10:16.747] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:10:16.811] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:10:16.811] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:10:16.848] [INFO] handler - sdk.invoke response:  e8623b4abee28776c628f67fbc2885c3912f69316266c1a8b585a449197a3af5
+[2019-07-10T17:10:17.231] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:10:17.235] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:10:17.309] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:10:17.309] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:10:17.328] [INFO] handler - sdk.invoke response:  8ce55544bd2f28ab0f902d024b542d88653d3940c02d86e57445d5c22933cb53
+[2019-07-10T17:18:07.432] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:18:07.453] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:18:07.529] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:18:07.530] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:18:07.585] [INFO] handler - sdk.invoke response:  ab19c52ff7834014593a36ee9357897f99b6a6da1cfce81b2d0f85d79b79f7bb
+[2019-07-10T17:18:10.007] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:18:10.008] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:18:10.032] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:18:10.033] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:18:10.054] [INFO] handler - sdk.invoke response:  5443c38941c080eda4199bfd71f77abf77b96ec2ec673ffa111f853be4acfb47
+[2019-07-10T17:18:41.294] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:18:41.295] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:18:41.328] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:18:41.329] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:18:41.340] [INFO] handler - sdk.invoke response:  1eb893d6818df70acc625bfe570b5e19c07eba504a13507025cae977f15a0dcc
+[2019-07-10T17:18:41.796] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:18:41.798] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:18:41.852] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:18:41.853] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:18:41.881] [INFO] handler - sdk.invoke response:  c038ef18b375fa47c3f9fc81860edfb9ba74109e310fb2d1374cbbb5c639b9da
+[2019-07-10T17:18:43.057] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:18:43.058] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:18:43.092] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:18:43.093] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:18:43.115] [INFO] handler - sdk.invoke response:  345b8f7dfe2d51438186c8faffdec71db50bf7fab804bcc8100542708a328736
+[2019-07-10T17:19:09.560] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:19:09.561] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:19:11.087] [DEBUG] handler - enter savedata function ...
+[2019-07-10T17:19:11.088] [INFO] handler - request body:  [ { createBy: 'createBy',
+    createTime: 123456,
+    sender: 'sender',
+    receiver: [ 'receiver' ],
+    txData: 'txData',
+    attachmentList: [],
+    lastUpdateTime: 123,
+    lastUpdateBy: 'lastUpdateBy',
+    cryptoFlag: 5,
+    cryptoAlgorithm: 'cryptoAlgorithm',
+    docType: 'docType',
+    fabricTxId: 'fabricTxId',
+    businessNo: 'businessNo',
+    expand1: 'expand1',
+    expand2: 'expand2',
+    test: 'test',
+    dataVersion: 'dataVersion' } ]
+[2019-07-10T17:19:11.124] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:19:11.124] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:19:11.141] [INFO] handler - sdk.invoke response:  440150364ed32a8f41bfa7657bcf7dcdaf29f0f5de1e2d7cc284390443631fa3
+[2019-07-10T17:19:11.162] [DEBUG] sdk - transaction proposal was good
+[2019-07-10T17:19:11.162] [INFO] sdk - Successfully sent Proposal and received ProposalResponse: Status - 200, message - OK, metadata - 
+[2019-07-10T17:19:11.185] [INFO] handler - sdk.invoke response:  698a39d46a1c594f5a2726b2078d9379d90bfe7cf56bee7e44ab91e51e0836c5

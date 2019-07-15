@@ -1,0 +1,9 @@
+#ignore ide file
+*.out
+.idea/
+.vscode/
+**/node_modules/
+factoring-apiserver/logs/
+factoring-eventserver/test/
+factoring-apiserver/test/
+!package.json

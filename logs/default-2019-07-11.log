@@ -1,0 +1,316 @@
+[2019-07-11T13:57:27.318] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:08:45.579] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:09:23.374] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:09:23.377] [INFO] sdk - { chaincode_actions: [] }
+[2019-07-11T14:09:23.378] [INFO] sdk - { chaincode_actions: [] }
+[2019-07-11T14:10:11.514] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:10:11.532] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:10:11.533] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:11:24.762] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:11:24.764] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:11:24.764] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:12:10.283] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:12:10.300] [INFO] sdk - []
+[2019-07-11T14:12:10.304] [INFO] sdk - []
+[2019-07-11T14:13:34.199] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:13:34.201] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:13:34.202] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:14:07.247] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:14:07.250] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:14:07.252] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:14:24.040] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:14:24.042] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:14:24.042] [INFO] sdk - {"chaincode_actions":[]}
+[2019-07-11T14:14:55.635] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:14:55.638] [INFO] sdk - []
+[2019-07-11T14:14:55.640] [INFO] sdk - []
+[2019-07-11T14:16:16.517] [INFO] sdk - block info  { blockNumber: '4', txIndex: 2 }
+[2019-07-11T14:16:16.520] [INFO] sdk - []
+[2019-07-11T14:16:16.521] [INFO] sdk - []
+[2019-07-11T14:16:26.961] [INFO] sdk - block info  { blockNumber: '5', txIndex: 2 }
+[2019-07-11T14:16:26.964] [INFO] sdk - []
+[2019-07-11T14:16:26.966] [INFO] sdk - []
+[2019-07-11T14:27:14.827] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T14:27:14.886] [INFO] sdk - { validationCode: 0,
+  transactionEnvelope: 
+   { signature: <Buffer 30 45 02 21 00 c8 1b f7 02 ac 3e 7a bd ec 53 06 84 bd 69 62 89 5e 2a 08 6f 51 f9 a8 13 86 10 8c 17 c7 1e 64 fa 02 20 78 22 34 a8 03 b3 fc 4b 0f b6 d2 ... >,
+     payload: { header: [Object], data: [Object] } } }
+[2019-07-11T14:27:14.922] [INFO] sdk - { validationCode: 0,
+  transactionEnvelope: 
+   { signature: <Buffer 30 44 02 20 71 f3 2c ee fc 93 d4 c0 e3 38 6f 09 37 92 0a 12 e3 b2 e9 f7 b3 73 3b 47 e0 0b 4c 51 35 ee 6e 34 02 20 38 e7 e8 f0 dc 68 db 7c 78 25 e7 62 ... >,
+     payload: { header: [Object], data: [Object] } } }
+[2019-07-11T14:27:46.141] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T14:27:46.191] [INFO] sdk - {"validationCode":0,"transactionEnvelope":{"signature":{"type":"Buffer","data":[48,69,2,33,0,200,27,247,2,172,62,122,189,236,83,6,132,189,105,98,137,94,42,8,111,81,249,168,19,134,16,140,23,199,30,100,250,2,32,120,34,52,168,3,179,252,75,15,182,210,38,90,79,156,27,74,229,80,190,110,196,34,80,174,136,13,221,65,133,183,174]},"payload":{"header":{"channel_header":{"type":3,"version":1,"timestamp":"2019-07-11T06:19:50.091Z","channel_id":"mychannel","tx_id":"56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f","epoch":"0","extension":{"type":"Buffer","data":[18,6,18,4,109,121,99,99]},"typeString":"ENDORSER_TRANSACTION"},"signature_header":{"creator":{"Mspid":"Org1MSP","IdBytes":"-----BEGIN CERTIFICATE-----\nMIICGDCCAcCgAwIBAgIRANCiRJyVIZORkF7mapOQC/AwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwMjI1MDc1OTI1WhcNMjkwMjIyMDc1OTI1\nWjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGwlFlFxyAyeJnqrTEE12SdkAXzjuiZZ\n+iXgsdwoR3gQg9wjRtzav8VvtZgZraz7SMzoeloKer7Xtyj7jVUlr6ijTTBLMA4G\nA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIA9YxqeeaVt6\nAcnLMk51MgW1kcSmzeeTy9KKKHV+iZIEMAoGCCqGSM49BAMCA0YAMEMCIAmtcjGm\nby3N98LatU7Q6hVfzV+BwKHPLIHoqZQgfzXrAh91C7sIHFrICa0TLJtQApsq1ISA\n0+lAkU9AZQOEKm9p\n-----END CERTIFICATE-----\n"},"nonce":{"type":"Buffer","data":[249,16,121,67,59,91,137,202,55,183,83,5,242,245,89,181,84,136,50,38,158,189,39,142]}}},"data":{"actions":[{"header":{"creator":{"Mspid":"Org1MSP","IdBytes":"-----BEGIN CERTIFICATE-----\nMIICGDCCAcCgAwIBAgIRANCiRJyVIZORkF7mapOQC/AwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwMjI1MDc1OTI1WhcNMjkwMjIyMDc1OTI1\nWjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGwlFlFxyAyeJnqrTEE12SdkAXzjuiZZ\n+iXgsdwoR3gQg9wjRtzav8VvtZgZraz7SMzoeloKer7Xtyj7jVUlr6ijTTBLMA4G\nA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIA9YxqeeaVt6\nAcnLMk51MgW1kcSmzeeTy9KKKHV+iZIEMAoGCCqGSM49BAMCA0YAMEMCIAmtcjGm\nby3N98LatU7Q6hVfzV+BwKHPLIHoqZQgfzXrAh91C7sIHFrICa0TLJtQApsq1ISA\n0+lAkU9AZQOEKm9p\n-----END CERTIFICATE-----\n"},"nonce":{"type":"Buffer","data":[249,16,121,67,59,91,137,202,55,183,83,5,242,245,89,181,84,136,50,38,158,189,39,142]}},"payload":{"chaincode_proposal_payload":{"input":{"chaincode_spec":{"type":1,"typeString":"GOLANG","input":{"args":[{"type":"Buffer","data":[83,97,118,101,68,97,116,97]},{"type":"Buffer","data":[123,34,107,101,121,34,58,34,102,97,98,114,105,99,84,120,73,100,34,44,34,118,97,108,117,101,34,58,34,123,92,34,99,114,101,97,116,101,66,121,92,34,58,92,34,99,114,101,97,116,101,66,121,92,34,44,92,34,99,114,101,97,116,101,84,105,109,101,92,34,58,49,50,51,52,53,54,44,92,34,115,101,110,100,101,114,92,34,58,92,34,115,101,110,100,101,114,92,34,44,92,34,114,101,99,101,105,118,101,114,92,34,58,91,92,34,114,101,99,101,105,118,101,114,92,34,93,44,92,34,116,120,68,97,116,97,92,34,58,92,34,116,120,68,97,116,97,92,34,44,92,34,97,116,116,97,99,104,109,101,110,116,76,105,115,116,92,34,58,91,93,44,92,34,108,97,115,116,85,112,100,97,116,101,84,105,109,101,92,34,58,49,50,51,44,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,58,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,44,92,34,99,114,121,112,116,111,70,108,97,103,92,34,58,53,44,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,58,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,44,92,34,100,111,99,84,121,112,101,92,34,58,92,34,100,111,99,84,121,112,101,92,34,44,92,34,102,97,98,114,105,99,84,120,73,100,92,34,58,92,34,102,97,98,114,105,99,84,120,73,100,92,34,44,92,34,98,117,115,105,110,101,115,115,78,111,92,34,58,92,34,98,117,115,105,110,101,115,115,78,111,49,50,92,34,44,92,34,101,120,112,97,110,100,49,92,34,58,92,34,101,120,112,97,110,100,49,92,34,44,92,34,101,120,112,97,110,100,50,92,34,58,92,34,101,120,112,97,110,100,50,92,34,44,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,58,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,125,34,125]}],"decorations":{}},"chaincode_id":{"path":"","name":"mycc","version":""},"timeout":0}}},"action":{"proposal_response_payload":{"proposal_hash":"822d8058ced29bb84ee1ba1fb87b31afa6ade2c974b22bf2e68c6f812e6f9645","extension":{"results":{"data_model":0,"ns_rwset":[{"namespace":"lscc","rwset":{"reads":[{"key":"mycc","version":{"block_num":"2","tx_num":"0"}}],"range_queries_info":[],"writes":[],"metadata_writes":[]},"collection_hashed_rwset":[]},{"namespace":"mycc","rwset":{"reads":[],"range_queries_info":[],"writes":[{"key":"56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f","is_delete":false,"value":"{\"createBy\":\"createBy\",\"createTime\":123456,\"sender\":\"sender\",\"receiver\":[\"receiver\"],\"txData\":\"txData\",\"attachmentList\":[],\"lastUpdateTime\":123,\"lastUpdateBy\":\"lastUpdateBy\",\"cryptoFlag\":5,\"cryptoAlgorithm\":\"cryptoAlgorithm\",\"docType\":\"docType\",\"fabricTxId\":\"fabricTxId\",\"businessNo\":\"businessNo12\",\"expand1\":\"expand1\",\"expand2\":\"expand2\",\"dataVersion\":\"dataVersion\"}"},{"key":"businessNo12","is_delete":false,"value":"56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f"}],"metadata_writes":[]},"collection_hashed_rwset":[]}]},"events":{"chaincode_id":"","tx_id":"","event_name":"","payload":{"type":"Buffer","data":[]}},"response":{"status":200,"message":"","payload":""},"chaincode_id":{"path":"","name":"mycc","version":"1.0"}}},"endorsements":[{"endorser":{"Mspid":"Org1MSP","IdBytes":"-----BEGIN CERTIFICATE-----\nMIICGjCCAcCgAwIBAgIRAIEqQW02IF9PFcrpBsz1vGgwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwMjI1MDc1OTI1WhcNMjkwMjIyMDc1OTI1\nWjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzEfMB0GA1UEAxMWcGVlcjAub3JnMS5leGFtcGxlLmNvbTBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHL3Ku6XwpXpefAvf2Zut4m4TwxR1a9W\nvGbwPcaGym7q+7VrCwU1AyphH7hJzU/2PmOuLLkLg2CKKX/XKc0s2gajTTBLMA4G\nA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIA9YxqeeaVt6\nAcnLMk51MgW1kcSmzeeTy9KKKHV+iZIEMAoGCCqGSM49BAMCA0gAMEUCIQCByW23\ncCaMKROXMohDo2lBTTsWthcn0ibCFN9RsEMpmgIgHmTaQ1TKG7mtotiCSVahYRmk\naKiAGSGlK6pUKVqxqhk=\n-----END CERTIFICATE-----\n"},"signature":{"type":"Buffer","data":[48,69,2,33,0,219,102,63,51,206,67,254,195,171,125,79,120,172,138,113,250,232,201,22,198,39,144,228,48,245,44,128,130,21,12,15,61,2,32,64,28,192,59,246,208,101,252,18,207,240,197,8,42,231,180,23,40,130,82,22,97,239,229,224,148,251,171,119,183,228,4]}}]}}}]}}}}
+[2019-07-11T14:27:46.296] [INFO] sdk - {"validationCode":0,"transactionEnvelope":{"signature":{"type":"Buffer","data":[48,68,2,32,113,243,44,238,252,147,212,192,227,56,111,9,55,146,10,18,227,178,233,247,179,115,59,71,224,11,76,81,53,238,110,52,2,32,56,231,232,240,220,104,219,124,120,37,231,98,7,124,71,156,209,102,151,118,24,30,174,130,110,141,69,229,224,183,154,8]},"payload":{"header":{"channel_header":{"type":3,"version":1,"timestamp":"2019-07-11T06:19:50.159Z","channel_id":"mychannel","tx_id":"498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da","epoch":"0","extension":{"type":"Buffer","data":[18,6,18,4,109,121,99,99]},"typeString":"ENDORSER_TRANSACTION"},"signature_header":{"creator":{"Mspid":"Org1MSP","IdBytes":"-----BEGIN CERTIFICATE-----\nMIICGDCCAcCgAwIBAgIRANCiRJyVIZORkF7mapOQC/AwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwMjI1MDc1OTI1WhcNMjkwMjIyMDc1OTI1\nWjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGwlFlFxyAyeJnqrTEE12SdkAXzjuiZZ\n+iXgsdwoR3gQg9wjRtzav8VvtZgZraz7SMzoeloKer7Xtyj7jVUlr6ijTTBLMA4G\nA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIA9YxqeeaVt6\nAcnLMk51MgW1kcSmzeeTy9KKKHV+iZIEMAoGCCqGSM49BAMCA0YAMEMCIAmtcjGm\nby3N98LatU7Q6hVfzV+BwKHPLIHoqZQgfzXrAh91C7sIHFrICa0TLJtQApsq1ISA\n0+lAkU9AZQOEKm9p\n-----END CERTIFICATE-----\n"},"nonce":{"type":"Buffer","data":[151,146,43,222,188,238,101,34,100,179,244,114,160,40,106,171,11,196,154,175,103,159,186,173]}}},"data":{"actions":[{"header":{"creator":{"Mspid":"Org1MSP","IdBytes":"-----BEGIN CERTIFICATE-----\nMIICGDCCAcCgAwIBAgIRANCiRJyVIZORkF7mapOQC/AwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwMjI1MDc1OTI1WhcNMjkwMjIyMDc1OTI1\nWjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzEfMB0GA1UEAwwWQWRtaW5Ab3JnMS5leGFtcGxlLmNvbTBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGwlFlFxyAyeJnqrTEE12SdkAXzjuiZZ\n+iXgsdwoR3gQg9wjRtzav8VvtZgZraz7SMzoeloKer7Xtyj7jVUlr6ijTTBLMA4G\nA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIA9YxqeeaVt6\nAcnLMk51MgW1kcSmzeeTy9KKKHV+iZIEMAoGCCqGSM49BAMCA0YAMEMCIAmtcjGm\nby3N98LatU7Q6hVfzV+BwKHPLIHoqZQgfzXrAh91C7sIHFrICa0TLJtQApsq1ISA\n0+lAkU9AZQOEKm9p\n-----END CERTIFICATE-----\n"},"nonce":{"type":"Buffer","data":[151,146,43,222,188,238,101,34,100,179,244,114,160,40,106,171,11,196,154,175,103,159,186,173]}},"payload":{"chaincode_proposal_payload":{"input":{"chaincode_spec":{"type":1,"typeString":"GOLANG","input":{"args":[{"type":"Buffer","data":[83,97,118,101,68,97,116,97]},{"type":"Buffer","data":[123,34,107,101,121,34,58,34,102,97,98,114,105,99,84,120,73,100,34,44,34,118,97,108,117,101,34,58,34,123,92,34,99,114,101,97,116,101,66,121,92,34,58,92,34,99,114,101,97,116,101,66,121,92,34,44,92,34,99,114,101,97,116,101,84,105,109,101,92,34,58,49,50,51,52,53,54,44,92,34,115,101,110,100,101,114,92,34,58,92,34,115,101,110,100,101,114,92,34,44,92,34,114,101,99,101,105,118,101,114,92,34,58,91,92,34,114,101,99,101,105,118,101,114,92,34,93,44,92,34,116,120,68,97,116,97,92,34,58,92,34,116,120,68,97,116,97,92,34,44,92,34,97,116,116,97,99,104,109,101,110,116,76,105,115,116,92,34,58,91,93,44,92,34,108,97,115,116,85,112,100,97,116,101,84,105,109,101,92,34,58,49,50,51,44,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,58,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,44,92,34,99,114,121,112,116,111,70,108,97,103,92,34,58,53,44,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,58,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,44,92,34,100,111,99,84,121,112,101,92,34,58,92,34,100,111,99,84,121,112,101,92,34,44,92,34,102,97,98,114,105,99,84,120,73,100,92,34,58,92,34,102,97,98,114,105,99,84,120,73,100,92,34,44,92,34,98,117,115,105,110,101,115,115,78,111,92,34,58,92,34,98,117,115,105,110,101,115,115,78,117,109,98,101,114,49,50,92,34,44,92,34,101,120,112,97,110,100,49,92,34,58,92,34,101,120,112,97,110,100,49,92,34,44,92,34,101,120,112,97,110,100,50,92,34,58,92,34,101,120,112,97,110,100,50,92,34,44,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,58,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,125,34,125]}],"decorations":{}},"chaincode_id":{"path":"","name":"mycc","version":""},"timeout":0}}},"action":{"proposal_response_payload":{"proposal_hash":"21b8ec6b992e526af313b7e1c1a5e2bca86c8e06b8cf9fc7e0cb7bb5cba5ee17","extension":{"results":{"data_model":0,"ns_rwset":[{"namespace":"lscc","rwset":{"reads":[{"key":"mycc","version":{"block_num":"2","tx_num":"0"}}],"range_queries_info":[],"writes":[],"metadata_writes":[]},"collection_hashed_rwset":[]},{"namespace":"mycc","rwset":{"reads":[],"range_queries_info":[],"writes":[{"key":"498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da","is_delete":false,"value":"{\"createBy\":\"createBy\",\"createTime\":123456,\"sender\":\"sender\",\"receiver\":[\"receiver\"],\"txData\":\"txData\",\"attachmentList\":[],\"lastUpdateTime\":123,\"lastUpdateBy\":\"lastUpdateBy\",\"cryptoFlag\":5,\"cryptoAlgorithm\":\"cryptoAlgorithm\",\"docType\":\"docType\",\"fabricTxId\":\"fabricTxId\",\"businessNo\":\"businessNumber12\",\"expand1\":\"expand1\",\"expand2\":\"expand2\",\"dataVersion\":\"dataVersion\"}"},{"key":"businessNumber12","is_delete":false,"value":"498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da"}],"metadata_writes":[]},"collection_hashed_rwset":[]}]},"events":{"chaincode_id":"","tx_id":"","event_name":"","payload":{"type":"Buffer","data":[]}},"response":{"status":200,"message":"","payload":""},"chaincode_id":{"path":"","name":"mycc","version":"1.0"}}},"endorsements":[{"endorser":{"Mspid":"Org1MSP","IdBytes":"-----BEGIN CERTIFICATE-----\nMIICGjCCAcCgAwIBAgIRAIEqQW02IF9PFcrpBsz1vGgwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xGTAXBgNVBAoTEG9yZzEuZXhhbXBsZS5jb20xHDAaBgNVBAMTE2Nh\nLm9yZzEuZXhhbXBsZS5jb20wHhcNMTkwMjI1MDc1OTI1WhcNMjkwMjIyMDc1OTI1\nWjBbMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMN\nU2FuIEZyYW5jaXNjbzEfMB0GA1UEAxMWcGVlcjAub3JnMS5leGFtcGxlLmNvbTBZ\nMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHL3Ku6XwpXpefAvf2Zut4m4TwxR1a9W\nvGbwPcaGym7q+7VrCwU1AyphH7hJzU/2PmOuLLkLg2CKKX/XKc0s2gajTTBLMA4G\nA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMCsGA1UdIwQkMCKAIA9YxqeeaVt6\nAcnLMk51MgW1kcSmzeeTy9KKKHV+iZIEMAoGCCqGSM49BAMCA0gAMEUCIQCByW23\ncCaMKROXMohDo2lBTTsWthcn0ibCFN9RsEMpmgIgHmTaQ1TKG7mtotiCSVahYRmk\naKiAGSGlK6pUKVqxqhk=\n-----END CERTIFICATE-----\n"},"signature":{"type":"Buffer","data":[48,69,2,33,0,242,249,105,174,228,193,101,45,32,43,132,149,116,57,66,13,39,107,253,254,11,65,101,182,175,243,43,187,191,63,239,81,2,32,20,223,182,97,216,205,223,186,108,238,218,156,163,103,0,11,236,142,185,113,184,73,135,81,207,195,82,235,237,195,91,61]}}]}}}]}}}}
+[2019-07-11T15:56:43.034] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T15:57:10.568] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T15:57:10.609] [INFO] sdk - {"type":"Buffer","data":[123,34,107,101,121,34,58,34,102,97,98,114,105,99,84,120,73,100,34,44,34,118,97,108,117,101,34,58,34,123,92,34,99,114,101,97,116,101,66,121,92,34,58,92,34,99,114,101,97,116,101,66,121,92,34,44,92,34,99,114,101,97,116,101,84,105,109,101,92,34,58,49,50,51,52,53,54,44,92,34,115,101,110,100,101,114,92,34,58,92,34,115,101,110,100,101,114,92,34,44,92,34,114,101,99,101,105,118,101,114,92,34,58,91,92,34,114,101,99,101,105,118,101,114,92,34,93,44,92,34,116,120,68,97,116,97,92,34,58,92,34,116,120,68,97,116,97,92,34,44,92,34,97,116,116,97,99,104,109,101,110,116,76,105,115,116,92,34,58,91,93,44,92,34,108,97,115,116,85,112,100,97,116,101,84,105,109,101,92,34,58,49,50,51,44,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,58,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,44,92,34,99,114,121,112,116,111,70,108,97,103,92,34,58,53,44,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,58,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,44,92,34,100,111,99,84,121,112,101,92,34,58,92,34,100,111,99,84,121,112,101,92,34,44,92,34,102,97,98,114,105,99,84,120,73,100,92,34,58,92,34,102,97,98,114,105,99,84,120,73,100,92,34,44,92,34,98,117,115,105,110,101,115,115,78,111,92,34,58,92,34,98,117,115,105,110,101,115,115,78,111,49,50,92,34,44,92,34,101,120,112,97,110,100,49,92,34,58,92,34,101,120,112,97,110,100,49,92,34,44,92,34,101,120,112,97,110,100,50,92,34,58,92,34,101,120,112,97,110,100,50,92,34,44,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,58,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,125,34,125]}
+[2019-07-11T15:57:10.633] [INFO] sdk - {"type":"Buffer","data":[123,34,107,101,121,34,58,34,102,97,98,114,105,99,84,120,73,100,34,44,34,118,97,108,117,101,34,58,34,123,92,34,99,114,101,97,116,101,66,121,92,34,58,92,34,99,114,101,97,116,101,66,121,92,34,44,92,34,99,114,101,97,116,101,84,105,109,101,92,34,58,49,50,51,52,53,54,44,92,34,115,101,110,100,101,114,92,34,58,92,34,115,101,110,100,101,114,92,34,44,92,34,114,101,99,101,105,118,101,114,92,34,58,91,92,34,114,101,99,101,105,118,101,114,92,34,93,44,92,34,116,120,68,97,116,97,92,34,58,92,34,116,120,68,97,116,97,92,34,44,92,34,97,116,116,97,99,104,109,101,110,116,76,105,115,116,92,34,58,91,93,44,92,34,108,97,115,116,85,112,100,97,116,101,84,105,109,101,92,34,58,49,50,51,44,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,58,92,34,108,97,115,116,85,112,100,97,116,101,66,121,92,34,44,92,34,99,114,121,112,116,111,70,108,97,103,92,34,58,53,44,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,58,92,34,99,114,121,112,116,111,65,108,103,111,114,105,116,104,109,92,34,44,92,34,100,111,99,84,121,112,101,92,34,58,92,34,100,111,99,84,121,112,101,92,34,44,92,34,102,97,98,114,105,99,84,120,73,100,92,34,58,92,34,102,97,98,114,105,99,84,120,73,100,92,34,44,92,34,98,117,115,105,110,101,115,115,78,111,92,34,58,92,34,98,117,115,105,110,101,115,115,78,117,109,98,101,114,49,50,92,34,44,92,34,101,120,112,97,110,100,49,92,34,58,92,34,101,120,112,97,110,100,49,92,34,44,92,34,101,120,112,97,110,100,50,92,34,58,92,34,101,120,112,97,110,100,50,92,34,44,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,58,92,34,100,97,116,97,86,101,114,115,105,111,110,92,34,125,34,125]}
+[2019-07-11T16:00:06.907] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:00:06.955] [INFO] sdk - invoke args { type: 'Buffer',
+  data: 
+   [ 123,
+     34,
+     107,
+     101,
+     121,
+     34,
+     58,
+     34,
+     102,
+     97,
+     98,
+     114,
+     105,
+     99,
+     84,
+     120,
+     73,
+     100,
+     34,
+     44,
+     34,
+     118,
+     97,
+     108,
+     117,
+     101,
+     34,
+     58,
+     34,
+     123,
+     92,
+     34,
+     99,
+     114,
+     101,
+     97,
+     116,
+     101,
+     66,
+     121,
+     92,
+     34,
+     58,
+     92,
+     34,
+     99,
+     114,
+     101,
+     97,
+     116,
+     101,
+     66,
+     121,
+     92,
+     34,
+     44,
+     92,
+     34,
+     99,
+     114,
+     101,
+     97,
+     116,
+     101,
+     84,
+     105,
+     109,
+     101,
+     92,
+     34,
+     58,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     44,
+     92,
+     34,
+     115,
+     101,
+     110,
+     100,
+     101,
+     114,
+     92,
+     34,
+     58,
+     92,
+     34,
+     115,
+     101,
+     110,
+     100,
+     101,
+     114,
+     92,
+     34,
+     44,
+     ... 354 more items ] }
+[2019-07-11T16:00:06.977] [INFO] sdk - invoke args { type: 'Buffer',
+  data: 
+   [ 123,
+     34,
+     107,
+     101,
+     121,
+     34,
+     58,
+     34,
+     102,
+     97,
+     98,
+     114,
+     105,
+     99,
+     84,
+     120,
+     73,
+     100,
+     34,
+     44,
+     34,
+     118,
+     97,
+     108,
+     117,
+     101,
+     34,
+     58,
+     34,
+     123,
+     92,
+     34,
+     99,
+     114,
+     101,
+     97,
+     116,
+     101,
+     66,
+     121,
+     92,
+     34,
+     58,
+     92,
+     34,
+     99,
+     114,
+     101,
+     97,
+     116,
+     101,
+     66,
+     121,
+     92,
+     34,
+     44,
+     92,
+     34,
+     99,
+     114,
+     101,
+     97,
+     116,
+     101,
+     84,
+     105,
+     109,
+     101,
+     92,
+     34,
+     58,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54,
+     44,
+     92,
+     34,
+     115,
+     101,
+     110,
+     100,
+     101,
+     114,
+     92,
+     34,
+     58,
+     92,
+     34,
+     115,
+     101,
+     110,
+     100,
+     101,
+     114,
+     92,
+     34,
+     44,
+     ... 358 more items ] }
+[2019-07-11T16:01:33.416] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:01:33.462] [INFO] sdk - invoke args { key: 'fabricTxId',
+  value: '{"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}' }
+[2019-07-11T16:01:33.482] [INFO] sdk - invoke args { key: 'fabricTxId',
+  value: '{"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}' }
+[2019-07-11T16:06:17.931] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:07:48.056] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:08:39.170] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:09:14.843] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:09:14.886] [INFO] sdk - savedata success businessNo undefined with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request "{\"createBy\":\"createBy\",\"createTime\":123456,\"sender\":\"sender\",\"receiver\":[\"receiver\"],\"txData\":\"txData\",\"attachmentList\":[],\"lastUpdateTime\":123,\"lastUpdateBy\":\"lastUpdateBy\",\"cryptoFlag\":5,\"cryptoAlgorithm\":\"cryptoAlgorithm\",\"docType\":\"docType\",\"fabricTxId\":\"fabricTxId\",\"businessNo\":\"businessNo12\",\"expand1\":\"expand1\",\"expand2\":\"expand2\",\"dataVersion\":\"dataVersion\"}"
+[2019-07-11T16:09:14.909] [INFO] sdk - savedata success businessNo undefined with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request "{\"createBy\":\"createBy\",\"createTime\":123456,\"sender\":\"sender\",\"receiver\":[\"receiver\"],\"txData\":\"txData\",\"attachmentList\":[],\"lastUpdateTime\":123,\"lastUpdateBy\":\"lastUpdateBy\",\"cryptoFlag\":5,\"cryptoAlgorithm\":\"cryptoAlgorithm\",\"docType\":\"docType\",\"fabricTxId\":\"fabricTxId\",\"businessNo\":\"businessNumber12\",\"expand1\":\"expand1\",\"expand2\":\"expand2\",\"dataVersion\":\"dataVersion\"}"
+[2019-07-11T16:11:52.888] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:11:52.940] [INFO] sdk - savedata success businessNo undefined with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:11:52.963] [INFO] sdk - savedata success businessNo undefined with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:12:33.936] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:12:33.982] [INFO] sdk - savedata success businessNo businessNo12 with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:12:34.010] [INFO] sdk - savedata success businessNo businessNumber12 with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:12:45.715] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:12:45.781] [INFO] sdk - savedata success businessNo: businessNo12 with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:12:45.813] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:15:03.441] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:15:03.688] [INFO] sdk - savedata success businessNo: businessNo12 with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:15:03.827] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:15:42.139] [INFO] sdk - savedata success businessNo: businessNo12 with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:15:42.171] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:16:00.118] [INFO] sdk - block info  { blockNumber: '6', txIndex: 2 }
+[2019-07-11T16:16:00.251] [INFO] sdk - savedata success businessNo: businessNo12 with txid 56ed106cf298d6cbed7a5ac63dbe1bc2f124484080f870c99d078c36fb48032f and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:16:00.275] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 498728f5bb4ad21265b3ffc907efc1b36ec2e7ccf0cf3e0d1e2cdc06ee6976da and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:38:13.431] [INFO] sdk - block info  { blockNumber: undefined }
+[2019-07-11T16:43:48.514] [INFO] sdk - block info  { blockNumber: '7', txIndex: 2 }
+[2019-07-11T16:43:48.551] [INFO] sdk - savedata success businessNo: businessNo12 with txid 639115239ccd1f7042760396af22c1ad540e5fe3cce1402661e2805219c78b05 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T16:43:48.575] [INFO] sdk - savedata success businessNo: businessNumber12 with txid d8d68e60c42227ee47fcc2ca96815293adbdbd3ca2bbcd3906dc5913f77dc967 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:13:42.507] [INFO] sdk - block info  { blockNumber: '8', txIndex: 2 }
+[2019-07-11T17:14:33.128] [INFO] sdk - block info  { blockNumber: '8', txIndex: 2 }
+[2019-07-11T17:14:57.407] [INFO] sdk - block info  { blockNumber: '8', txIndex: 2 }
+[2019-07-11T17:15:33.551] [INFO] sdk - block info  { blockNumber: '8', txIndex: 2 }
+[2019-07-11T17:16:12.430] [INFO] sdk - block info  { blockNumber: '8', txIndex: 2 }
+[2019-07-11T17:16:40.995] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:17:44.595] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:18:14.515] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:19:33.656] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:20:03.362] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:21:16.863] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:21:59.134] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:21:59.142] [INFO] sdk - savedata success businessNo: businessNo12 with txid 66a3deada81194f460c2d9655cb88c039073afea1d0130824e5848412b07a062 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:21:59.144] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 75004aaa720ba8dd501214c2dd34d5654a55d5c85f09c5a294e517119d7fd1bd and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:23:58.087] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:23:58.100] [INFO] sdk - savedata success businessNo: businessNo12 with txid 66a3deada81194f460c2d9655cb88c039073afea1d0130824e5848412b07a062 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:23:58.101] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 75004aaa720ba8dd501214c2dd34d5654a55d5c85f09c5a294e517119d7fd1bd and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:24:14.785] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:24:14.789] [INFO] sdk - savedata success businessNo: businessNo12 with txid 66a3deada81194f460c2d9655cb88c039073afea1d0130824e5848412b07a062 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:24:14.789] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 75004aaa720ba8dd501214c2dd34d5654a55d5c85f09c5a294e517119d7fd1bd and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:24:33.425] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:24:33.432] [INFO] sdk - savedata success businessNo: businessNo12 with txid 66a3deada81194f460c2d9655cb88c039073afea1d0130824e5848412b07a062 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:24:33.434] [INFO] sdk - savedata success businessNo: businessNumber12 with txid 75004aaa720ba8dd501214c2dd34d5654a55d5c85f09c5a294e517119d7fd1bd and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:24:55.439] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:24:55.467] [INFO] sdk - savedata success businessNo: businessNo12 with txid cbbd1aa175d017047208b4ca1be694a5be2add857874edd4b6a7863653dc49fb and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:24:55.484] [INFO] sdk - savedata success businessNo: businessNumber12 with txid ed914b4a34d360dac25005dbd252a57cd59d4cc027ec33dd23622a63a8cd1186 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:27:27.921] [INFO] sdk - block info  { blockNumber: '9', txIndex: 2 }
+[2019-07-11T17:27:27.925] [INFO] sdk - savedata success businessNo: businessNo12 with txid cbbd1aa175d017047208b4ca1be694a5be2add857874edd4b6a7863653dc49fb and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNo12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}
+[2019-07-11T17:27:27.925] [INFO] sdk - savedata success businessNo: businessNumber12 with txid ed914b4a34d360dac25005dbd252a57cd59d4cc027ec33dd23622a63a8cd1186 and request {"createBy":"createBy","createTime":123456,"sender":"sender","receiver":["receiver"],"txData":"txData","attachmentList":[],"lastUpdateTime":123,"lastUpdateBy":"lastUpdateBy","cryptoFlag":5,"cryptoAlgorithm":"cryptoAlgorithm","docType":"docType","fabricTxId":"fabricTxId","businessNo":"businessNumber12","expand1":"expand1","expand2":"expand2","dataVersion":"dataVersion"}

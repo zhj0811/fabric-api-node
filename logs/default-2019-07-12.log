@@ -1,0 +1,4 @@
+[2019-07-12T17:21:04.980] [INFO] sdk - block info  { blockNumber: '2', txIndex: 1 }
+[2019-07-12T17:21:31.522] [INFO] sdk - block info  { blockNumber: '2', txIndex: 1 }
+[2019-07-12T17:22:14.863] [INFO] sdk - block info  { blockNumber: '3', txIndex: 2 }
+[2019-07-12T17:22:21.580] [INFO] sdk - block info  { blockNumber: '3', txIndex: 2 }

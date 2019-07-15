@@ -1,0 +1,53 @@
+{
+    "appenders": {
+        "out": {
+          "type": "console"
+        },
+        "task": {
+          "type": "dateFile",
+          "filename": "../logs/task",
+          "pattern": "-dd.log",
+          "alwaysIncludePattern": true
+        },
+        "access":{
+          "type": "dateFile",
+          "filename": "../logs/access.log",
+          "alwaysIncludePattern": true
+        },
+        "result": {
+          "type": "dateFile",
+          "filename": "../logs/result",
+          "pattern": "-yyyy-MM-dd.log",
+          "alwaysIncludePattern": true
+        },
+        "error": {
+          "type": "file",
+          "filename": "../logs/error.log",
+          "level": "ERROR",
+          "maxLogSize": 1000000,
+          "backups":2
+        },
+        "default": {
+          "type": "dateFile",
+          "filename": "../logs/default",
+          "pattern": "-yyyy-MM-dd.log",
+          "level": "trace",
+          "alwaysIncludePattern": true
+        },
+        "rate": {
+          "type": "dateFile",
+          "filename": "../logs/rate",
+          "pattern": "-yyyy-MM-dd.log",
+          "alwaysIncludePattern": true
+        }
+    },
+  "replaceConsole": true,
+  "categories": {
+    "default": { "appenders": ["out","default","error"], "level": "ALL"},
+    "access": { "appenders": [ "access", "out" ], "level": "debug" },
+    "task": { "appenders": ["task"], "level": "info"},
+    "result": { "appenders": ["result"], "level": "trace" },
+    "error": { "appenders": ["error"], "level": "error" },
+    "rate": { "appenders": ["rate"], "level": "info" }
+  }
+}
