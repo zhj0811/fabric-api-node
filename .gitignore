@@ -6,4 +6,7 @@
 factoring-apiserver/logs/
 factoring-eventserver/test/
 factoring-apiserver/test/
+logs/
+test/
+test_code/
 !package.json
